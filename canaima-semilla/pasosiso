@@ -1,0 +1,4 @@
+-copiar la base primera-base
+-modificar el archivo profile.conf
+-correr el siguiente comando
+c-s construir --medio="iso" --arch="amd64" --sabor="evaluacion"ejecutar alt+f2, escribir

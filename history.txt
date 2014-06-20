@@ -1,0 +1,500 @@
+   59  ls
+   60  c-s
+   61  cd ..
+   62  cd ..
+   63  cd canaima
+   64  cd ..
+   65  cd canaima-semilla/
+   66  ls
+   67  ps -aux | grep c-s-gui
+   68  kill -9 10589 10595 10646
+   69  c-s construir --medio="iso" --arquitectura="i386" --sabor="primera-base"
+   70  c-s construir --medio="iso" --arquitectura="i386" --sabor="primera-base"
+   71  c-s construir --medio="iso" --arquitectura="i386" --sabor="primera-base"
+   72  aptitude install identify
+   73  aptitude install missidentify liblingua-identify-perl libsub-identify-perl
+   74  c-s construir --medio="iso" --arquitectura="i386" --sabor="primera-base"
+   75  ls
+   76  cd profiles/
+   77  c-s construir --medio="iso" --arquitectura="i386" --sabor="primera-base"
+   78  c-s-gui 
+   79  ps -aux |grep c-s-gui
+   80  kill -9 10676 13171
+   81  c-s-gui 
+   82  kill -9 10676 13171
+   83  ps -aux |grep c-s-gui
+   84  kill -9 13175
+   85  c-s-gui 
+   86  ps -aux |grep c-s-gui
+   87  kill -9 13339
+   88  ls
+   89  ls -la
+   90  live-build 
+   91  ps -aux |grep c-s-gui
+   92  live-build 
+   93  wget 172.16.1.63/deb
+   94  ls
+   95  nano deb 
+   96  nano debian
+   97  wget -r http://172.16.1.63/python/deb
+   98  wget -r 172.16.1.63/python/deb
+   99  wget -r http://172.16.1.63/deb
+  100  ls
+  101  ls 172.16.1.63/
+  102  ls deb 
+  103  cd deb
+  104  ls
+  105  cd 172.16.1.63/
+  106  ls
+  107  cd deb
+  108  ls
+  109  dpkg -i *.deb
+  110  clear
+  111  cd ..
+  112  cd ..
+  113  wget -r http://paquetes.canaima.softwarelibre.gob.ve/pool/main/p/python2.7/python2.7-minimal_2.7.3-6+deb7u2_amd64.deb
+  114  clear
+  115  wget -r http://paquetes.canaima.softwarelibre.gob.ve/pool/main/p/python2.7/python2.7-minimal_2.7.3-6+deb7u2_amd64.deb && wget -r http://paquetes.canaima.softwarelibre.gob.ve/pool/main/p/python2.7/python2.7-minimal_2.7.3-6+deb7u2_amd64.deb
+  116  clear
+  117  wget -r http://paquetes.canaima.softwarelibre.gob.ve/pool/main/p/python2.7/python2.7-minimal_2.7.3-6+deb7u2_amd64.deb && wget -r http://paquetes.canaima.softwarelibre.gob.ve/pool/main/p/python2.7/python2.7-minimal_2.7.3-6+deb7u2_amd64.deb && wget -r http://paquetes.canaima.softwarelibre.gob.ve/pool/main/p/python2.7/python2.7-minimal_2.7.3-6+deb7u2_amd64.deb
+  118  clear
+  119  exit
+  120  exit
+  121  apt-get source canaima-notas-gnome 
+  122  ls
+  123  cd canaima-notas-gnome-4.0/
+  124  ls
+  125  nano canaima_notas_gnome.py 
+  126  dpkg-buildpackage -us -uc
+  127  cd ..
+  128  dpkg-buildpackage -us -uc
+  129  clear
+  130  ls
+  131  cd canaima-notas-gnome-4.0/
+  132  ls
+  133  dpkg-buildpackage -uc -us
+  134  dpkg --commit
+  135  clear
+  136  dpkg-buildpackage -uc -us
+  137  dpkg-source --commit
+  138  dpkg-buildpackage -uc -us
+  139  cd ..
+  140  dpkg-buildpackage -uc -us
+  141  cd canaima-notas-gnome-4.0/
+  142  clear
+  143  dpkg-buildpackage -uc -us
+  144  dpkg-buildpackage -us -uc
+  145  cd ..
+  146  ls
+  147  cd canaima-notas-gnome-4.0/
+  148  aptitude remove --purge canaima-notas-gnome 
+  149  make install 
+  150  cd ..
+  151  ls
+  152  mv canaima-notas-gnome-4.0 paquetecanaima/
+  153  cd paquetecanaima/
+  154  ls
+  155  git add -a canaima-notas-gnome-4.0/
+  156  git add -a canaima-notas-gnome-4.0/
+  157  git add canaima-notas-gnome-4.0/
+  158  git commit -a
+  159  git push 
+  160  clear
+  161  ls
+  162  ls
+  163  cd ..
+  164  ls
+  165  clear
+  166  history
+  167  clear
+  168  aptitude install canaima-semilla
+  169  aptitude install canaima-semillaclear
+  170  clear
+  171  canaima-semilla construir --medio="iso" --arquitectura="i386" --sabor="gobernacion"
+  172  aptitude search canaima-semilla
+  173  nano /etc/apt/sources.list
+  174  c-s-gui 
+  175  c-s-gui 
+  176  c-s-gui 
+  177  c-s-gui 
+  178  clear
+  179  clear
+  180  ls
+  181  cd paquetecanaima/
+  182  ps -aux | grep c-s-gui
+  183  kill -9 13681
+  184  kill -9 7848
+  185  ps -aux | grep c-s-gui
+  186  kill -9 7848
+  187  kill -9 13685
+  188  ps -aux | grep c-s-gui
+  189  git pull 
+  190  cd ..
+  191  ls
+  192  cd ..
+  193  ls
+  194  cd cursoasl/
+  195  clear
+  196  ls
+  197  git pull 
+  198  ls
+  199  nano python.txt 
+  200  clear
+  201  iwlist scann
+  202  aptitude search iwlist scann
+  203  aptitude install wireless-tools -y
+  204  iwlist scann
+  205  ifconfig wlan0 up
+  206  ifconfig -a
+  207  lspci | grep Network
+  208  lspci | grep Networkhttp://paquetes.canaima.softwarelibre.gob.ve/pool/main/p/python2.7/python2.7-minimal_2.7.3-6+deb7u2_amd64.deb
+  209  aptitude install firmware-ralink
+  210  ifconfig -a
+  211  aptitude install wireshark
+  212  clear
+  213  iwlist scann
+  214  ifconfig wlan0
+  215  iwconfig scupol_yaracuy
+  216  iwconfig essid "escupol_yaracuy"
+  217  iwconfig wlan0 essid "escupol_yaracuy"
+  218  ifconfig wlan0
+  219  iwconfig wlan0 essid "escupol_yaracuy"
+  220  ifconfig wlan0
+  221  iwconfig wlan0 essid"escupol_yaracuy"
+  222  iwconfig wlan0 essid: "escupol_yaracuy"
+  223  iwconfig wlan0 essid "escupol_yaracuy"
+  224  iwfconfig wlan0
+  225  iwfconfig wlan0
+  226  clear
+  227  iwconfig wlan0 essid "escupol_yaracuy"
+  228  iwconfig wlan0 
+  229  dhclient
+  230  dhcp client
+  231  clear
+  232  iwconfig wlan0 
+  233  dhclient
+  234  dhclient
+  235  dhclient
+  236  dhclient
+  237  dhclient wlan0 
+  238  dhclient wlan0 
+  239  ifconfig wlan0 up
+  240  dhclient wlan0 
+  241  iwconfig wlan0 
+  242  ifconfig wlan0 up
+  243  dhclient wlan0 
+  244  dhclient wlan0 
+  245  dhclient wlan0 -sf
+  246  dhclient wlan0 -sf
+  247  dhclient wlan0 -sf
+  248  dhclient wlan0 -sf
+  249  dhclient wlan0 -sf
+  250  dhclient wlan0 -sf
+  251  dhclient wlan0 -sf
+  252  dhclient wlan0 -sf
+  253  dhclient wlan0 -sf
+  254  dhclient wlan0 -sf
+  255  dhclient wlan0 -sf
+  256  dhclient -sf wlan0
+  257  dhclient wlan0 -sf
+  258  aptitude x11vnc -y
+  259  aptitude x11vnc
+  260  aptitude install x11vnc -y
+  261  clear
+  262  aptitude install x11vnc -y
+  263  aptitude install x11vnc
+  264  clear
+  265  aptitude install x11vnc
+  266  aptitude install x11vnc
+  267  ps -aux | grep *.*
+  268  ps -aux | grep *.deb
+  269  ps -aux | grep *.d
+  270  ps -aux | grep *.debclear
+  271  clear
+  272  exit
+  273  exit
+  274  clear
+  275  cd /usr/share/canaima-semilla/
+  276  ls
+  277  cd isos/
+  278  ls
+  279  rm -rf build.201406200857.log
+  280  rm -rf build.201406200859.log
+  281  ls
+  282  clear
+  283  ps -aux | grep .
+  284  clear
+  285  cd ..
+  286  cd ..
+  287  cd ..
+  288  cd ..
+  289  ls
+  290  clear
+  291  ls
+  292  cd /home/equipo11/
+  293  ls
+  294  clear
+  295  ls
+  296  cd cursoasl/
+  297  ls
+  298  exit
+  299  aptitude imagemagick
+  300  aptitude install imagemagick
+  301  aptitude search x11
+  302  aptitude search x11vnc
+  303  clear
+  304  cd /usr/share/canaima-semilla/
+  305  ls
+  306  ls isos/
+  307  cd isos/
+  308  ls
+  309  nano build.201406200850.log 
+  310  tail f build.201406200850.log 
+  311  aptitude tail f build.201406200850.log 
+  312  clear
+  313  tailf build.201406200850.log 
+  314  clear
+  315  ls
+  316  cd ..
+  317  ls
+  318  cd profiles/
+  319  ls
+  320  cd gobernacion/
+  321  ls
+  322  nano profile.conf 
+  323  ls
+  324  cd ..
+  325  ls
+  326  cd primera-base/
+  327  ls
+  328  nano profile.conf 
+  329  cd ..
+  330  cd ..
+  331  cd ..
+  332  cd ..
+  333  cd ..
+  334  aptitude install xtughtvn
+  335  xtightvncviewer -y
+  336  x11vnc -bg -gui -passwd
+  337  clear
+  338  aptitude install arp-scan -y
+  339  arp-scan --interface=eth0
+  340  clear
+  341  arp-scan --interface=eth0 --localnet
+  342  aptitude install nmap -y
+  343  nmap -A T4 172.16.1.71
+  344  nmap -A -T4 172.16.1.71
+  345  clear
+  346  nmap -A  172.16.1.71
+  347  nmap -A -T4 172.16.1.71
+  348  clear
+  349  nmap -A -T4 172.16.1.63
+  350  nmap -A  172.16.1.63
+  351  nmap -A  172.16.1.63
+  352  nano /etc/ssh/ssh_config 
+  353  nano /etc/ssh/ssh_config 
+  354  cd /etc/init.d/
+  355  ls
+  356  aptitude search ssh
+  357  aptitude install ssh
+  358  ls
+  359  aptitude install ssh
+  360  ls
+  361  ssh stop
+  362  ssh start
+  363  cd ssh
+  364  clear
+  365  ls
+  366  ssh restart
+  367  cd ..
+  368  cd ..
+  369  /etc/init.d/ssh restart
+  370  nmap -A 172.16.1.72
+  371  nano /etc/ssh/ssh_config 
+  372  /etc/init.d/ssh restart
+  373  nmap -A localhost
+  374  nmap -A 172.16.1.72
+  375  ifconfig
+  376  nmap -A 172.16.1.71
+  377  nmap -A 172.16.1.69
+  378  nano /etc/ssh/ssh_config 
+  379  /etc/init.d/ssh restart
+  380  nmap -A 172.16.1.72
+  381  nano /etc/ssh/sshd_config 
+  382  /etc/init.d/ssh restart
+  383  nmap -A 172.16.1.72
+  384  nano /etc/ssh/sshd_config 
+  385  nano /etc/ssh/ssh_config 
+  386  /etc/init.d/ssh restart
+  387  nmap -A 172.16.1.72
+  388  nano /etc/ssh/sshd_config 
+  389  /etc/init.d/ssh restart
+  390  nmap -A 172.16.1.72
+  391  nano /etc/ssh/ssh_config 
+  392  nano /etc/ssh/ssh_config 
+  393  nmap 172.16.1.72
+  394  /etc/init.d/ssh restart
+  395  nmap -A 172.16.1.72
+  396  ls
+  397  cd /home/equipo11/
+  398  ls
+  399  clear
+  400  ls
+  401  cd Descargas/
+  402  ls
+  403  cat copy_agent-1.45.0363.tgz
+  404  62;9;cclear
+  405  clear
+  406  ls
+  407  exit
+  408  exit
+  409  c-s construir --medio"iso" --arquitectura="i386"  --sabor="popular"
+  410  c-s construir --medio="iso" --arquitectura="i386"  --sabor="popular"
+  411  c-s construir --medio="iso" --arquitectura="i386"  --sabor="gobernacion"
+  412  c-s construir --medio="iso" --arquitectura="i386"  --sabor="primera-base"
+  413  clear
+  414  cd /usr/share/canaima-semilla/
+  415  ls
+  416  cd profiles/
+  417  ls
+  418  cd gobernacion/
+  419  ls
+  420  nano profile.conf 
+  421  c-s construir --medio="iso" --arquitectura="i386"  --sabor="gobernacion"
+  422  cd ..
+  423  c-s construir --medio="iso" --arquitectura="i386"  --sabor="gobernacion"
+  424  nano profile.conf 
+  425  cd gobernacion/
+  426  ls
+  427  nano profile.conf 
+  428  cd ..
+  429  c-s construir --medio="iso" --arquitectura="i386"  --sabor="gobernacion"
+  430  cd gobernacion/
+  431  nano profile.conf 
+  432  cd ..
+  433  ls
+  434  rm -rf gobernacion/
+  435  ls
+  436  cp -R primera-base instituconal
+  437  ls
+  438  cd instituconal/
+  439  ls
+  440  clear
+  441  ls
+  442  nano profile.conf 
+  443  ls
+  444  nano profile.conf 
+  445  nano profile.conf 
+  446  c-s construir --medio="iso" --arquitectura="i386"  --sabor="institucional"
+  447  cd ..
+  448  c-s construir --medio="iso" --arquitectura="i386"  --sabor="institucional"
+  449  ls
+  450  cd ..
+  451  c-s construir --medio="iso" --arquitectura="i386"  --sabor="institucional"
+  452  cd profiles/
+  453  ls
+  454  nano profile.conf 
+  455  ls
+  456  cd instituconal/
+  457  ls
+  458  nano profile.conf 
+  459  c-s construir --medio="iso" --arquitectura="i386"  --sabor="institucional"
+  460  c-s construir --medio="iso" --arquitectura="i386"  --sabor="instituconal"
+  461  ifconfig
+  462  ls
+  463  cd ..
+  464  ls
+  465  cd instituconal/
+  466  ls
+  467  cd ..
+  468  clear
+  469  ls
+  470  cd ..
+  471  clear
+  472  ls
+  473  cd isos/
+  474  ls
+  475  cd chroot/
+  476  ls
+  477  cd ..
+  478  ls
+  479  chroot chroot
+  480  exit
+  481  exit
+  482  history 
+  483  clear
+  484  mkdir evaluacion
+  485  ls
+  486  rf -rm j
+  487  rm -rf j
+  488  rm -rf g
+  489  rm -rf josetren/
+  490  clear
+  491  ls
+  492  cd evaluacion/
+  493  git clone https://github.com/julioh/cursoasl.git
+  494  clear
+  495  ls
+  496  cd cursoasl/
+  497  ls
+  498  nano evaluacion.txt
+  499  clear
+  500  clear
+  501  ls
+  502  cd ..
+  503  cd ..
+  504  ls
+  505  cd canaima/
+  506  ls
+  507  cd ..
+  508  cd cursoasl/
+  509  ls
+  510  cd paquete/
+  511  ls
+  512  clear
+  513  canaima-semilla
+  514  cd ..
+  515  cd ..
+  516  cd /usr/share/canaima-semilla/
+  517  ls
+  518  cd profiles/
+  519  ls
+  520  rm -rf 172.16.1.63 instituconal/
+  521  ls
+  522  cd ..
+  523  cd ..
+  524  cp -R canaima-semilla /home/equipo11/evaluacion/actividadcursoasl/
+  525  cd ..
+  526  cd ..
+  527  ls
+  528  cd /home/equipo11/
+  529  ls
+  530  cd evaluacion/
+  531  ls
+  532  cd actividadcursoasl/
+  533  ls
+  534  cd canaima-semilla/
+  535  ls
+  536  ls
+  537  clear
+  538  touch pasosiso
+  539  nano pasosiso 
+  540  cd /etc/apt/sources.list
+  541  nano /etc/apt/sources.list
+  542  cd ..
+  543  cd ..
+  544  cd ..
+  545  cursoasl/
+  546  cd cursoasl/
+  547  ls
+  548  cd paquete/
+  549  ls
+  550  clear
+  551  cd ..
+  552  cd ..
+  553  ls
+  554  cd evaluacion/
+  555  ls
+  556  cd actividadcursoasl/
+  557  ls
+  558  history >> history.txt

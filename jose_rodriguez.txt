@@ -1,0 +1,74 @@
+Actividad. Curso de Adminsitracion en Linux
+
+
+- Entrar como root, ejecutar
+
+history -c
+
+
+-Crear un proyecto en github llamado actividadcursoasl
+1- Generar el Readme de una vez
+2- Agregarme al proyecto mi correo es juliochg@gmail.com
+3- agregar este .txt que ha sido modificado con tu nombre y apellido.
+4-hacer un commit
+
+5- Crear 5 archivos llamados y cambiar permisologia
+ -curso1.txt   ---RW-R-X 165
+ -curso2.txt   RWX-W-RW- 726
+ -curso3.txt   --X--X--X 111
+ -curso4.txt   -W--W-RWX 227
+ -curso5.txt   ---RW-R-- 164
+
+6-Como puedo visualizar las particiones del disco duro: df
+
+7-Como matamos un proceso del computador: kill -9 codproceso
+
+8-Crear un carpeta llamada cunaguaro.
+  -abrir cunaguaro
+  -guardar la busqueda en archivo llamado cunaguaro.txt
+ 
+9-Crear un carpeta llamada kernel.
+  -guardar la busqueda en archivo llamado kernel.txt
+  -mover la carpeta kernel por kernel1.0
+
+10-Como configuras una interfaz de red con dhcp: dhclient wlan0 o eth0
+
+11-Que sucede cuando ejecutas el
+comando: touch registros
+-Crea un archivo vacío llamado registros.
+
+12-El comando: more examen
+- Muestra las primeras líneas del archivo examen
+
+13-crear un carpeta sl
+descargar el paquete fuente de sl, modificar el tren 
+con su nombre generar un nuevo paquete, e instalarlo
+  subir dichos paquetes al servidor de github
+
+14-comando para listar redes inalambricas: iwlist scanniwlist
+
+15-como funcionan x11vnc, pasos del cliente y servidor :servidor: ejecutar alt+f2, escribir x11vnc+enter, cliente: ejecutar alt+f2, escribir xtightvncviewer y copiar ip del server 
+
+16- Como agregamos el usuario y gestionamos el cambio de contraseña : agregando: adduser nombreusuario, cambiando clave: passwd nombreusuario
+
+17-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
+  llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
+   subir dicha carpeta a github.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso
+
+18- donde se modifican los repositorios en debian: /etc/apt/source.list 
+   - cuales son los pasos para ejecutar un repositorio nuevo.: deb http://nombre del directorio
+
+19- Las particiones de un disco se nombran mediante el nombre de dispositivo y el
+número de partición: si
+
+20- Como hago un repositorio con debmirror, comando.
+aptitude install debmirror
+debmirror --host=http.us.debian.org --root=debian --cleanup --nosource --ignore-missing-release --progress --ignore-release-gpg \
+--arch=i386,amd64 --dist=wheezy,jessie --method=http --section=main,contrib,non-free /var/www/debian
+
+21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+
+ 
+
+
